@@ -1,6 +1,6 @@
 ### Prerequisites
 
-* A Unix-like operating system: Ubuntu.
+* OS: Ubuntu.
 * `curl` should be installed.
 
 ### Basic Installation
