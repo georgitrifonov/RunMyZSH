@@ -9,4 +9,6 @@ You can install this via the command-line with `curl`.
 
 #### via curl
 
-```sh -c "$(curl -fsSL https://raw.githubusercontent.com/georgitrifonov/RunMyZSH/master/runmyzsh.sh)"```
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/georgitrifonov/RunMyZSH/master/runmyzsh.sh)"
+```
