@@ -8,6 +8,5 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 sed -i 's/^plugins=.*/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
 echo "alias cat='batcat --paging=never --style=plain'\n" >> ~/.zshrc
 echo "export TERM=xterm-256color\n" >> ~/.zshrc
-echo "PROMPT="$fg[cyan]%}$USER@%{$fg[blue]%}%m ${PROMPT}"\n" >> ~/.zshrc
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
