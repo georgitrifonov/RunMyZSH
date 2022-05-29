@@ -8,5 +8,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 sed -i 's/^plugins=.*/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
 echo "alias cat='batcat --paging=never --style=plain'\n" >> ~/.zshrc
 echo "export TERM=xterm-256color\n" >> ~/.zshrc
+echo "bindkey '^[[H' beginning-of-line\n" >> ~/.zshrc
+echo "bindkey '^[[F' end-of-line\n" >> ~/.zshrc
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
